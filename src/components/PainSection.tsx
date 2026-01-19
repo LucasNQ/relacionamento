@@ -20,15 +20,15 @@ export default function PainSection() {
         <div className="max-w-2xl">
           <div className="space-y-8 text-base md:text-lg leading-relaxed">
             <p className="text-white">
-              Você é o <span className="text-red-500 font-bold">fracassado</span> que assiste de camarote enquanto outro cara leva a mulher que você <span className="text-red-500 font-bold">DESEJA</span>. Você é o troféu de consolação, o amiguinho gay que ela usa pra desabafar sobre o cafajeste que a ignora, isso quando você consegue ser amigo dela.
+              Você é o <span className="text-white uppercase">fracassado</span> que assiste de camarote enquanto outro cara leva a mulher que você <span className="text-white uppercase">deseja</span>. Você é o troféu de consolação, o amiguinho gay que ela usa pra desabafar sobre o cafajeste que a ignora, isso quando você consegue ser amigo dela.
             </p>
 
             <p className="text-white">
-              Sua vida amorosa é um cemitério de oportunidades perdidas. Você é um fantasma no radar feminino, um zero à esquerda que nem sequer é notado. Dói, não dói? A verdade é que você é <span className="text-red-500 font-bold">invisível</span>, um nada para elas.
+              Sua vida amorosa é um cemitério de oportunidades perdidas. Você é um fantasma no radar feminino, um zero à esquerda que nem sequer é notado. Dói, não dói? A verdade é que você é <span className="text-white uppercase">invisível</span>, um nada para elas.
             </p>
 
             <p className="text-white">
-              Quantas vezes você foi o palhaço da turma, tentando fazer graça pra chamar a atenção dela, e ela só ria <span className="text-red-500 font-bold">DE VOCÊ</span>, não <span className="text-red-500 font-bold">COM VOCÊ</span>?
+              Quantas vezes você foi o palhaço da turma, tentando fazer graça pra chamar a atenção dela, e ela só ria <span className="text-white uppercase">de você</span>, não <span className="text-white uppercase">com você</span>?
             </p>
 
             <p className="text-white">
