@@ -5,20 +5,19 @@ export default function PainSection() {
 
   return (
     <section className="relative py-20 md:py-32 bg-black overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-r from-black via-black/95 to-black/30" style={{ zIndex: 1 }} />
-
-      <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-40"
-        style={{
-          backgroundImage: 'url(https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)',
-          backgroundPosition: 'right center',
-          zIndex: 0
-        }}
-      />
+      {/* Desktop Background Image - Absolute Right */}
+      <div className="hidden md:block absolute inset-y-0 right-0 w-[60%] pointer-events-none">
+        <div className="absolute inset-0 bg-gradient-to-r from-black via-black/80 to-transparent z-10" />
+        <img
+          src="/images/pain-bg.jpg"
+          alt=""
+          className="w-full h-full object-cover"
+        />
+      </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-6">
         <div className="max-w-2xl">
-          <div className="space-y-8 text-base md:text-[24px] leading-[30px]">
+          <div className="space-y-8 text-base leading-snug md:text-[24px] md:leading-[30px]">
             <p className="text-white">
               Você é o <span className="text-white uppercase">fracassado</span> que assiste de camarote enquanto outro cara leva a mulher que você <span className="text-white uppercase">deseja</span>. Você é o troféu de consolação, o amiguinho gay que ela usa pra desabafar sobre o cafajeste que a ignora, isso quando você consegue ser amigo dela.
             </p>
@@ -41,11 +40,21 @@ export default function PainSection() {
 
             <button
               onClick={scrollToOffer}
-              className="bg-red-600 hover:bg-red-700 text-white font-bold text-lg md:text-[31px] leading-[31px] px-10 py-5 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-2xl shadow-red-600/50"
+              className="bg-red-600 hover:bg-red-700 text-white font-bold text-lg md:text-[31px] leading-[31px] px-10 py-5 rounded-lg transition-all duration-300 transform hover:scale-105"
             >
               DEIXAR DE SER INVISÍVEL!
             </button>
           </div>
+        </div>
+
+        {/* Mobile Image - Full Width Block */}
+        <div className="md:hidden mt-8 relative mx-[-24px] w-[calc(100%+48px)]">
+          <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent z-10" />
+          <img
+            src="/images/pain-bg.jpg"
+            alt=""
+            className="w-full h-[400px] object-cover"
+          />
         </div>
       </div>
 

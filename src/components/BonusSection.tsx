@@ -7,7 +7,7 @@ export default function BonusSection() {
     <section className="relative py-20 md:py-32 bg-black">
       <div className="max-w-5xl mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-[64px] leading-[64px] tracking-[2.5px] font-black uppercase text-white mb-4">
+          <h2 className="text-[41px] leading-[49.2px] md:text-[64px] md:leading-[64px] tracking-[2.5px] font-black uppercase text-white mb-2">
             Bônus <span className="text-[#ED002A]">EXCLUSIVOS</span>
           </h2>
         </div>
@@ -62,19 +62,26 @@ export default function BonusSection() {
           </div>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-12 items-center mb-12">
-          <div
-            className="relative h-96 md:h-[500px] rounded-lg overflow-hidden"
-            style={{
-              backgroundImage: 'url(https://images.pexels.com/photos/3807758/pexels-photo-3807758.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)',
-              backgroundSize: 'cover',
-              backgroundPosition: 'center'
-            }}
-          />
+        <div className="flex flex-col md:grid md:grid-cols-2 gap-12 items-center mb-12">
+          {/* Image Column - Left on Desktop, Bottom on Mobile */}
+          <div className="relative order-2 md:order-1 w-full md:max-w-none flex justify-center md:justify-end">
+            <div className="relative w-full md:w-[700px] aspect-square rounded-[60px] overflow-hidden shadow-2xl border border-white/10">
 
-          <div className="text-left">
-            <h3 className="text-3xl font-bebas md:text-[64px] leading-[64px] tracking-[2.5px] text-[#ED002A] mb-4 uppercase">PENSE BEM</h3>
-            <p className="text-lg md:text-[24px] leading-[30px] text-white leading-relaxed">
+              <img
+                src="/images/bonus-bed.jpg"
+                alt="Bonus Especial"
+                className="w-full h-full object-cover object-bottom hover:scale-105 transition-transform duration-700 ease-out"
+              />
+            </div>
+
+          </div>
+
+          {/* Text Column - Right on Desktop, Top on Mobile */}
+          <div className="order-1 md:order-2 text-center md:text-left">
+            <h3 className="text-[41px] leading-[49.2px] font-bebas md:text-[64px] md:leading-[64px] tracking-[2.5px] text-[#ED002A] mb-4 uppercase">
+              PENSE BEM
+            </h3>
+            <p className="text-lg md:text-[24px] leading-[30px] text-white leading-relaxed mb-0">
               Chega de ser o coadjuvante. O ASSUNTO INFINITO não é um gasto, é um INVESTIMENTO na sua nova vida, na sua nova identidade. E o preço para ter o poder de conquistar qualquer mulher é ridículo perto do que você vai ganhar.
             </p>
           </div>

@@ -4,7 +4,7 @@ export default function ContactSection() {
   return (
     <section className="relative py-20 md:py-32 bg-gradient-to-b from-black to-red-950/20">
       <div className="max-w-4xl mx-auto px-6 text-center">
-        <h2 className="text-3xl md:text-[64px] leading-[64px] tracking-[2.5px] font-black mb-6 uppercase text-[#ED002A]">
+        <h2 className="text-[37px] leading-[64px] md:text-[64px] md:leading-[64px] tracking-[2.5px] font-black mb-0 md:mb-6 uppercase text-[#ED002A]">
           Ficou com alguma dúvida?
         </h2>
 

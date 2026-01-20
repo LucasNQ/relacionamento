@@ -9,7 +9,7 @@ export default function OfferSection() {
     <section id="offer-section" className="relative py-20 md:py-32 bg-gradient-to-b from-black via-red-950/30 to-black">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-[64px] leading-[64px] tracking-[2.5px] font-black mb-6 uppercase text-[#ED002A]">
+          <h2 className="text-[41px] leading-[49.2px] md:text-[64px] md:leading-[64px] tracking-[2.5px] font-black mb-2 uppercase text-[#ED002A]">
             CHEGA DE DESCULPAS!
           </h2>
 
