@@ -1,21 +1,15 @@
-import { Gift, Hand, Eye } from 'lucide-react';
+import { Hand, Eye } from 'lucide-react';
 
 export default function BonusSection() {
-  const scrollToOffer = () => {
-    document.getElementById('offer-section')?.scrollIntoView({ behavior: 'smooth' });
-  };
+
 
   return (
     <section className="relative py-20 md:py-32 bg-black">
       <div className="max-w-5xl mx-auto px-6">
         <div className="text-center mb-16">
-          <Gift className="w-16 h-16 text-red-600 mx-auto mb-6" />
-          <h2 className="text-4xl md:text-5xl font-black uppercase text-white mb-4">
-            Bônus <span className="text-red-600">EXCLUSIVOS</span>
+          <h2 className="text-4xl md:text-[64px] leading-[64px] tracking-[2.5px] font-black uppercase text-white mb-4">
+            Bônus <span className="text-[#ED002A]">EXCLUSIVOS</span>
           </h2>
-          <p className="text-xl text-gray-400">
-            Ferramentas extras para dominar completamente o jogo
-          </p>
         </div>
 
         <div className="space-y-8 mb-16">
@@ -79,9 +73,9 @@ export default function BonusSection() {
           />
 
           <div className="text-left">
-            <h3 className="text-3xl font-bold text-red-600 mb-4 uppercase">PENSE BEM</h3>
-            <p className="text-lg text-gray-300 leading-relaxed">
-              Chega de ser o coadjuvante. O <span className="text-white font-bold">ASSUNTO INFINITO</span> não é um gasto, é um <span className="text-white font-bold">INVESTIMENTO</span> na sua nova vida, na sua nova identidade. E o preço para ter o poder de conquistar qualquer mulher é ridículo perto do que você vai ganhar.
+            <h3 className="text-3xl font-bebas md:text-[64px] leading-[64px] tracking-[2.5px] text-[#ED002A] mb-4 uppercase">PENSE BEM</h3>
+            <p className="text-lg md:text-[24px] leading-[30px] text-white leading-relaxed">
+              Chega de ser o coadjuvante. O ASSUNTO INFINITO não é um gasto, é um INVESTIMENTO na sua nova vida, na sua nova identidade. E o preço para ter o poder de conquistar qualquer mulher é ridículo perto do que você vai ganhar.
             </p>
           </div>
         </div>

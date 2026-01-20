@@ -9,31 +9,31 @@ export default function OfferSection() {
     <section id="offer-section" className="relative py-20 md:py-32 bg-gradient-to-b from-black via-red-950/30 to-black">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-5xl font-black mb-6 uppercase text-red-600">
+          <h2 className="text-3xl md:text-[64px] leading-[64px] tracking-[2.5px] font-black mb-6 uppercase text-[#ED002A]">
             CHEGA DE DESCULPAS!
           </h2>
 
-          <p className="text-lg md:text-xl text-gray-300 leading-relaxed max-w-3xl mx-auto mb-8">
-            Chega de ser o coadjuvante. O <span className="text-white font-bold">ASSUNTO INFINITO</span> não é um gasto, é um <span className="text-white font-bold">INVESTIMENTO</span> na sua nova vida, na sua nova identidade. E o preço para ter o poder de conquistar qualquer mulher é ridículo perto do que você vai ganhar:
+          <p className="text-lg md:text-[24px] leading-[30px] text-gray-300 leading-relaxed max-w-3xl mx-auto mb-8">
+            Chega de ser o coadjuvante. O ASSUNTO INFINITO não é um gasto, é um <span className="text-white font-bold">INVESTIMENTO</span> na sua nova vida, na sua nova identidade. E o preço para ter o poder de conquistar qualquer mulher é ridículo perto do que você vai ganhar:
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto mb-8">
           <div className="rounded-2xl p-8 shadow-2xl border border-[#ed002a]" style={{ backgroundColor: '#0f0f0f' }}>
             <div className="text-center mb-6">
-              <h3 className="text-2xl font-black uppercase text-white mb-2">
+              <h3 className="text-2xl md:text-[30px] leading-[30px] font-bold text-white mb-2">
                 Plano Básico
               </h3>
-              <p className="text-gray-400">Para quem quer começar</p>
+              <p className="text-gray-400 text-lg md:text-[18px] leading-[18px]">Para quem quer começar</p>
             </div>
 
             <div className="text-center mb-8">
-              <p className="text-gray-500 line-through text-lg mb-2">De R$ 49,90</p>
+              <p className="text-red-600 line-through text-lg mb-2">De R$ 49,90</p>
               <div className="flex items-center justify-center gap-2">
                 <span className="text-white text-xl">R$</span>
-                <span className="text-6xl font-black text-white">12</span>
+                <span className="text-6xl font-bold md:text-[60px] leading-[50px] text-white">12</span>
                 <div className="flex flex-col items-start">
-                  <span className="text-2xl font-black text-white">,90</span>
+                  <span className="text-2xl font-bold text-white">,90</span>
                 </div>
               </div>
               <p className="text-gray-400 text-sm mt-2 uppercase font-bold">
@@ -77,19 +77,19 @@ export default function OfferSection() {
             </div>
 
             <div className="text-center mb-6">
-              <h3 className="text-2xl font-black uppercase text-white mb-2">
+              <h3 className="text-2xl font-bold text-white mb-2">
                 Plano Completo
               </h3>
               <p className="text-gray-400">A solução completa e definitiva</p>
             </div>
 
             <div className="text-center mb-8">
-              <p className="text-gray-500 line-through text-lg mb-2">De R$ 97,90</p>
+              <p className="text-red-600 line-through text-lg mb-2">De R$ 97,90</p>
               <div className="flex items-center justify-center gap-2">
-                <span className="text-red-600 text-xl">R$</span>
-                <span className="text-6xl font-black text-red-600">29</span>
+                <span className="text-white text-xl">R$</span>
+                <span className="text-6xl md:text-[60px] leading-[50px] font-bold text-white">29</span>
                 <div className="flex flex-col items-start">
-                  <span className="text-2xl font-black text-red-600">,90</span>
+                  <span className="text-2xl font-bold text-white">,90</span>
                 </div>
               </div>
               <p className="text-gray-400 text-sm mt-2 uppercase font-bold">

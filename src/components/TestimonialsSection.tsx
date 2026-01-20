@@ -41,8 +41,8 @@ export default function TestimonialsSection() {
   return (
     <section className="relative py-20 md:py-32 bg-black">
       <div className="max-w-6xl mx-auto px-6">
-        <h2 className="text-4xl md:text-5xl font-black mb-16 text-center uppercase text-white">
-          O que os alunos <span className="text-red-600">acham</span>
+        <h2 className="text-4xl md:text-[64px] leading-[64px] tracking-[2.5px] font-black mb-16 text-center uppercase text-white">
+          O que <span className="text-[#ED002A]">os alunos</span> acham
         </h2>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
@@ -69,7 +69,7 @@ export default function TestimonialsSection() {
         <div className="text-center">
           <button
             onClick={scrollToOffer}
-            className="bg-red-600 hover:bg-red-700 text-white font-bold text-xl px-12 py-6 rounded-lg uppercase tracking-wide transition-all duration-300 transform hover:scale-105 shadow-2xl shadow-red-600/50"
+            className="bg-red-600 hover:bg-red-700 text-white font-bold text-lg md:text-[31px] leading-[31px] px-10 py-5 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-2xl shadow-red-600/50"
           >
             DEIXAR DE SER INVISÍVEL!
           </button>

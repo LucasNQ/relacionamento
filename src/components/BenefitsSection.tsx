@@ -40,22 +40,22 @@ export default function BenefitsSection() {
       <div className="relative z-10 max-w-7xl mx-auto px-6">
         <div className="grid md:grid-cols-2 gap-12 items-start">
           <div className="md:col-span-1">
-            <h2 className="text-4xl md:text-5xl font-black mb-6 uppercase text-white">
-              O que você vai dominar com o <span className="text-white">ASSUNTO INFINITO</span>
+            <h2 className="text-4xl md:text-[64px] leading-[64px] tracking-[2.5px] font-black mb-6 uppercase text-white">
+              O que você vai dominar com o ASSUNTO INFINITO
             </h2>
 
-            <p className="text-lg md:text-xl text-white font-bold leading-relaxed">
-              Você não vai apenas conversar; você vai <span className="font-black">COMANDAR</span>. Você não vai apenas atrair; você vai <span className="font-black">CONQUISTAR</span>.
+            <p className="text-lg md:text-[24px] leading-[30px] text-white font-regular leading-relaxed">
+              Você não vai apenas conversar; você vai COMANDAR. Você não vai apenas atrair; você vai CONQUISTAR.
             </p>
           </div>
 
           <div className="md:col-span-1 space-y-8">
             {benefits.map((benefit, index) => (
               <div key={index}>
-                <h3 className="text-xl md:text-2xl font-black mb-2 text-white uppercase">
+                <h3 className="text-xl md:text-[36px] leading-[30px] font-bold mb-2 text-white uppercase">
                   {benefit.title}
                 </h3>
-                <p className="text-base text-white/95 leading-relaxed">
+                <p className="text-base text-white/95 md:text-[24px] leading-[30px] text-white font-regular leading-relaxed">
                   {benefit.description}
                 </p>
               </div>

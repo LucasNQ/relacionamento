@@ -6,12 +6,12 @@ export default function GuaranteeSection() {
       <div className="max-w-6xl mx-auto px-6">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="text-left">
-            <h2 className="text-4xl md:text-5xl font-black mb-8 leading-tight">
-              <span className="text-red-600">MINHA GARANTIA É<br />SIMPLES:</span> <span className="text-white">OU VOCÊ SE<br />TORNA UM PREDADOR,<br />OU SEU DINHEIRO VOLTA!</span>
+            <h2 className="text-4xl md:text-[64px] leading-[64px] tracking-[2.5px] font-black mb-8 leading-tight">
+              <span className="text-[#ED002A]">MINHA GARANTIA É<br />SIMPLES:</span> <span className="text-white">OU VOCÊ SE<br />TORNA UM PREDADOR,<br />OU SEU DINHEIRO VOLTA!</span>
             </h2>
 
-            <p className="text-lg md:text-xl text-gray-300 leading-relaxed mb-6">
-              Se em <span className="text-red-500 font-bold">30 dias</span> você não estiver <span className="text-red-500 font-bold">CONQUISTANDO mulheres</span> e sentindo o poder em suas mãos, eu devolvo cada centavo. Sem letras miúdas. Sem desculpas. Eu confio tanto no meu método que o risco é <span className="text-red-500 font-bold">100% meu</span>. Você tem coragem de aceitar o desafio?
+            <p className="text-lg md:text-[24px] leading-[30px] text-gray-300 leading-relaxed mb-6">
+              Se em 30 dias você não estiver CONQUISTANDO mulheres e sentindo o poder em suas mãos, eu devolvo cada centavo. Sem letras miúdas. Sem desculpas. Eu confio tanto no meu método que o risco é 100% meu Você tem coragem de aceitar o desafio?
             </p>
           </div>
 

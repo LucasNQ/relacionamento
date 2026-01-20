@@ -18,7 +18,7 @@ export default function PainSection() {
 
       <div className="relative z-10 max-w-7xl mx-auto px-6">
         <div className="max-w-2xl">
-          <div className="space-y-8 text-base md:text-lg leading-relaxed">
+          <div className="space-y-8 text-base md:text-[24px] leading-[30px]">
             <p className="text-white">
               Você é o <span className="text-white uppercase">fracassado</span> que assiste de camarote enquanto outro cara leva a mulher que você <span className="text-white uppercase">deseja</span>. Você é o troféu de consolação, o amiguinho gay que ela usa pra desabafar sobre o cafajeste que a ignora, isso quando você consegue ser amigo dela.
             </p>
@@ -41,7 +41,7 @@ export default function PainSection() {
 
             <button
               onClick={scrollToOffer}
-              className="bg-red-600 hover:bg-red-700 text-white font-bold text-lg md:text-xl px-10 py-5 rounded-lg uppercase tracking-wide transition-all duration-300 transform hover:scale-105 shadow-2xl shadow-red-600/50 mt-4"
+              className="bg-red-600 hover:bg-red-700 text-white font-bold text-lg md:text-[31px] leading-[31px] px-10 py-5 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-2xl shadow-red-600/50"
             >
               DEIXAR DE SER INVISÍVEL!
             </button>

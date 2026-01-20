@@ -20,21 +20,17 @@ export default function RevelationSection() {
 
       <div className="relative z-10 max-w-5xl mx-auto px-6">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-5xl font-black mb-6 uppercase">
-            <span className="text-white">BASTA!</span>
-          </h2>
-
-          <div className="space-y-4 text-base md:text-lg leading-relaxed text-gray-300 mb-8 max-w-3xl mx-auto">
+          <div className="space-y-4 text-base md:text-[24px] leading-[30px] text-white mb-8 max-w-3xl mx-auto">
             <p>
-              Você está prestes a descobrir a <span className="text-red-500 font-bold">VERDADE CRUA</span> sobre a mente feminina. Não é sobre ser bonitinho, rico ou shaipado. É sobre <span className="text-red-500 font-bold">PODER, CONTROLE e MANIPULAÇÃO</span> da atração.
+              BASTA! Você está prestes a descobrir a VERDADE CRUA sobre a mente feminina. Não é sobre ser bonitinho, rico ou shaipado. É sobre PODER, CONTROLE e MANIPULAÇÃO da atração.
             </p>
 
-            <p className="text-lg md:text-xl font-bold text-white">
-              Existe um <span className="text-red-600">ALGORITMO SECRETO</span> que desvenda o desejo feminino.
+            <p className="text-lg md:text-[24px] leading-[30px]">
+              Existe um ALGORITMO SECRETO que desvenda o desejo feminino.
             </p>
 
-            <p>
-              Uma vez que você o domina, elas se tornam <span className="text-red-500 font-bold">PREVISÍVEIS</span>, e você, <span className="text-red-500 font-bold">IRRESISTÍVEL</span>.
+            <p className="text-lg md:text-[24px] leading-[30px]">
+              Uma vez que você o domina, elas se tornam PREVISÍVEIS, e você, IRRESISTÍVEL.
             </p>
           </div>
         </div>
@@ -44,22 +40,17 @@ export default function RevelationSection() {
             <Infinity className="w-20 h-20 text-red-600 mx-auto" strokeWidth={2} />
           </div>
 
-          <h3 className="text-3xl md:text-4xl font-black mb-4 uppercase">
-            <span className="text-white">Apresento o </span>
-            <span className="text-red-600">ASSUNTO INFINITO</span>
-          </h3>
-
-          <p className="text-base md:text-lg text-gray-300 max-w-3xl mx-auto mb-4 leading-relaxed">
-            O sistema que vai te transformar de presa em caçador, e te dar o controle total sobre suas interações com mulheres.
+          <p className="text-base md:text-[24px] leading-[30px] text-white max-w-3xl mx-auto mb-4 leading-relaxed">
+            APRESENTO O ASSUNTO INFINITO O sistema que vai te transformar de presa em caçador, e te dar o controle total sobre suas interações com mulheres.
           </p>
 
-          <p className="text-sm md:text-base text-gray-400 max-w-3xl mx-auto mb-8 leading-relaxed">
-            Este não é para os fracos. É para os homens que estão dispostos a esmagar a timidez e tomar o que é deles por direito: <span className="text-red-500 font-bold">QUALQUER MULHER QUE DESEJAREM</span>.
+          <p className="text-sm md:text-[24px] leading-[30px] text-white max-w-3xl mx-auto mb-8 leading-relaxed">
+            Este não é para os fracos. É para os homens que estão dispostos a esmagar a timidez e tomar o que é deles por direito: QUALQUER MULHER QUE DESEJAREM.
           </p>
 
           <button
             onClick={scrollToOffer}
-            className="bg-red-600 hover:bg-red-700 text-white font-bold text-lg md:text-xl px-10 py-5 rounded-lg uppercase tracking-wide transition-all duration-300 transform hover:scale-105 shadow-2xl shadow-red-600/50"
+            className="bg-red-600 hover:bg-red-700 text-white font-bold text-lg md:text-[31px] leading-[31px] px-10 py-5 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-2xl shadow-red-600/50"
           >
             DEIXAR DE SER INVISÍVEL!
           </button>

@@ -9,15 +9,15 @@ export default function HeroSection() {
       </div>
 
       <div className="relative z-10 max-w-5xl mx-auto px-6 pt-64 pb-20 text-center">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-black mb-4 leading-tight text-red-600 uppercase tracking-tight">
+        <h1 className="text-[22px] md:text-[64px] font-black mb-4 leading-[64px] text-[#ED002A] uppercase tracking-[2.5px]" >
           CHEGA DE SER O INVISÍVEL!
         </h1>
 
-        <p className="text-3xl md:text-4xl lg:text-5xl mb-8 font-bold max-w-4xl mx-auto leading-tight text-white uppercase">
+        <p className="text-[22px] md:text-[64px] mb-8 font-bold max-w-4xl mx-auto leading-[64px] text-white uppercase font-bebas tracking-[2.5px]">
           Descubra como virar o jogo e ter qualquer mulher aos seus pés em 30 dias.
         </p>
 
-        <p className="text-base md:text-lg text-white mb-12 max-w-3xl mx-auto leading-relaxed">
+        <p className="text-[18px] md:text-[24px] text-white mb-12 max-w-3xl mx-auto leading-[30px]">
           Este não é mais um cursinho de autoajuda. É o maior método proibido, que já transformou mais de 30 mil alunos e vai te transformar no homem que elas imploram para ter, mesmo que você seja um zero à esquerda hoje.
         </p>
       </div>
