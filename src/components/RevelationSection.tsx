@@ -17,7 +17,7 @@ export default function RevelationSection() {
           <img
             src="/images/revelation-bg.jpg"
             alt=""
-            className="w-full h-full object-cover opacity-60"
+            className="w-full h-full object-cover opacity-60 grayscale"
           />
         </div>
 
@@ -28,7 +28,7 @@ export default function RevelationSection() {
           <img
             src="/images/revelation-bg.jpg"
             alt=""
-            className="w-full h-full object-cover opacity-50"
+            className="w-full h-full object-cover opacity-50 grayscale"
           />
         </div>
       </div>
