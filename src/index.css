@@ -8,12 +8,48 @@
   }
 
   /* Títulos em Bebas Neue e Caixa Alta */
-  h1, h2 {
+  h1,
+  h2 {
     @apply font-bebas uppercase;
   }
 
   /* Subtítulos em Titillium Bold */
-  h3, h4, h5, h6 {
+  h3,
+  h4,
+  h5,
+  h6 {
     @apply font-titillium font-bold;
   }
+}
+
+@keyframes slideUpFade {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-slide-up {
+  animation: slideUpFade 1s ease-out forwards;
+}
+
+@keyframes radar-ping {
+  0% {
+    inset: 0;
+    opacity: 0.8;
+  }
+
+  100% {
+    inset: -20px;
+    opacity: 0;
+  }
+}
+
+.animate-radar {
+  animation: radar-ping 1.5s infinite ease-out;
 }

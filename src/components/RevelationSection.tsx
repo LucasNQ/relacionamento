@@ -56,12 +56,6 @@ export default function RevelationSection() {
           Este não é para os fracos. É para os homens que estão dispostos a esmagar a timidez e tomar o que é deles por direito: QUALQUER MULHER QUE DESEJAREM.
         </p>
 
-        <button
-          onClick={scrollToOffer}
-          className="bg-red-600 hover:bg-red-700 text-white font-bold text-lg md:text-[31px] leading-[31px] px-10 py-5 rounded-lg transition-all duration-300 transform hover:scale-105"
-        >
-          DEIXAR DE SER INVISÍVEL!
-        </button>
       </div>
     </section>
   );

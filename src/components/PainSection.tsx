@@ -19,31 +19,32 @@ export default function PainSection() {
         <div className="max-w-2xl">
           <div className="space-y-8 text-base leading-snug md:text-[24px] md:leading-[30px]">
             <p className="text-white">
-              Você é o <span className="text-white uppercase">fracassado</span> que assiste de camarote enquanto outro cara leva a mulher que você <span className="text-white uppercase">deseja</span>. Você é o troféu de consolação, o amiguinho gay que ela usa pra desabafar sobre o cafajeste que a ignora, isso quando você consegue ser amigo dela.
+              Você já cansou de assistir de fora enquanto outro cara <span className="text-white uppercase">leva</span> a mulher que você queria. De ser o amigo que escuta, apoia, faz tudo certo… e mesmo assim <span className="text-white uppercase">nunca</span> é escolhido. Não porque você é inútil, mas porque ninguém nunca te ensinou como o jogo realmente funciona.
             </p>
 
             <p className="text-white">
-              Sua vida amorosa é um cemitério de oportunidades perdidas. Você é um fantasma no radar feminino, um zero à esquerda que nem sequer é notado. Dói, não dói? A verdade é que você é <span className="text-white uppercase">invisível</span>, um nada para elas.
+              A verdade dói: caras “legais” não são rejeitados por serem bons, mas por não despertarem <span className="text-white uppercase">desejo</span>. Enquanto alguns homens parecem conseguir pegar qualquer mulher sem esforço, você fica preso na friend zone, invisível, tentando entender como eles conseguem e você não.
             </p>
 
             <p className="text-white">
-              Quantas vezes você foi o palhaço da turma, tentando fazer graça pra chamar a atenção dela, e ela só ria <span className="text-white uppercase">de você</span>, não <span className="text-white uppercase">com você</span>?
+              O Manual Sujo da Conquista revela as regras que nunca te contaram: por que certos comportamentos afastam mulheres, o que realmente cria atração e o que você precisa mudar agora para virar o jogo.
             </p>
 
             <p className="text-white">
-              Quantas vezes você já foi isolado, esquecido, nunca foi um pensamento na cabeça dela.
+              Não é sobre virar outra pessoa é sobre parar de jogar errado e finalmente conquistar qualquer mulher nos próximos dias.
             </p>
 
-            <p className="text-white">
-              Você está desperdiçando sua juventude, sua energia, sua vida, por medo de uma palavra. O tempo está passando, e você continua sendo o mesmo perdedor de sempre.
-            </p>
-
-            <button
-              onClick={scrollToOffer}
-              className="bg-red-600 hover:bg-red-700 text-white font-bold text-lg md:text-[31px] leading-[31px] px-10 py-5 rounded-lg transition-all duration-300 transform hover:scale-105"
-            >
-              DEIXAR DE SER INVISÍVEL!
-            </button>
+            <div className="text-center md:text-left">
+              <div className="relative inline-block group">
+                <div className="absolute inset-0 bg-gradient-to-br from-[#e80029] to-[#4c000e] rounded-sm animate-radar -z-10"></div>
+                <button
+                  onClick={scrollToOffer}
+                  className="bg-gradient-to-br from-[#e80029] to-[#4c000e] hover:brightness-110 text-[22px] font-bold text-lg md:text-[31px] leading-[31px] px-10 py-5 rounded-sm transition-all duration-300 transform hover:scale-105 relative z-10"
+                >
+                  DEIXAR DE SER INVISÍVEL!
+                </button>
+              </div>
+            </div>
           </div>
         </div>
 

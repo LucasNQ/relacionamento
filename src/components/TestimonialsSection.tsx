@@ -67,12 +67,15 @@ export default function TestimonialsSection() {
         </div>
 
         <div className="text-center">
-          <button
-            onClick={scrollToOffer}
-            className="bg-red-600 hover:bg-red-700 text-white font-bold text-lg md:text-[31px] leading-[31px] px-10 py-5 rounded-lg transition-all duration-300 transform hover:scale-105"
-          >
-            DEIXAR DE SER INVISÍVEL!
-          </button>
+          <div className="relative inline-block group isolate">
+            <div className="absolute inset-0 bg-gradient-to-br from-[#e80029] to-[#4c000e] rounded-sm animate-radar -z-10"></div>
+            <button
+              onClick={scrollToOffer}
+              className="bg-gradient-to-br from-[#e80029] to-[#4c000e] hover:brightness-110 text-white font-bold text-[22px] md:text-[31px] leading-[31px] px-8 py-4 rounded-sm transition-all duration-300 transform hover:scale-105 relative z-10"
+            >
+              DEIXAR DE SER INVISÍVEL!
+            </button>
+          </div>
         </div>
       </div>
     </section>
