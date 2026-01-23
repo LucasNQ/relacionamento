@@ -15,7 +15,7 @@ export default function RevelationSection() {
           <div className="absolute inset-0 bg-gradient-to-l from-black via-black/60 to-transparent z-10" />
           <div className="absolute inset-0 bg-gradient-to-r from-transparent via-black/40 to-black z-10" />
           <img
-            src="/images/revelation-bg.jpg"
+            src="/images/revelation-bg.webp"
             alt=""
             className="w-full h-full object-cover opacity-60 grayscale"
           />
@@ -34,13 +34,13 @@ export default function RevelationSection() {
       </div>
 
       <div className="relative z-20 max-w-4xl mx-auto px-6 text-center">
-        <div className="space-y-4 text-base leading-snug md:text-[24px] md:leading-[30px] text-white mb-8">
+        <div className="space-y-4 text-base leading-snug md:text-[18px] md:leading-[24px] text-white mb-8">
           <p>
-            BASTA! Você está prestes a descobrir a VERDADE CRUA sobre a mente feminina. Não é sobre ser bonitinho, rico ou shaipado. É sobre PODER, CONTROLE e MANIPULAÇÃO da atração.
+            CHEGA! talvez você já perceba que não é falta de atitude nem azar. O problema nasce no JEITO INVISÍVEL como você se posiciona, nas micro decisões que parecem inofensivas e destroem a tensão antes mesmo dela surgir.
           </p>
 
           <p>
-            Existe um ALGORITMO SECRETO que desvenda o desejo feminino. Uma vez que você o domina, elas se tornam PREVISÍVEIS, e você, IRRESISTÍVEL.
+            Enquanto você TENTA AGRADAR, outros conduzem o ritmo sem pedir permissão, e isso muda tudo.
           </p>
         </div>
 
@@ -48,12 +48,12 @@ export default function RevelationSection() {
           <Infinity className="w-20 h-20 text-red-600" strokeWidth={2} />
         </div>
 
-        <p className="text-base leading-snug md:text-[24px] md:leading-[30px] text-white mb-4 leading-relaxed">
-          APRESENTO O ASSUNTO INFINITO O sistema que vai te transformar de presa em caçador, e te dar o controle total sobre suas interações com mulheres.
+        <p className="text-base leading-snug md:text-[18px] md:leading-[24px] text-white mb-4 leading-relaxed">
+          O MANUAL SUJO DA CONQUISTA entra exatamente aí, mostrando como assumir presença, gerar impacto e fazer com que a dinâmica mude a seu favor logo nas primeiras interações.
         </p>
 
-        <p className="text-sm leading-snug md:text-[24px] md:leading-[30px] text-white mb-8 leading-relaxed">
-          Este não é para os fracos. É para os homens que estão dispostos a esmagar a timidez e tomar o que é deles por direito: QUALQUER MULHER QUE DESEJAREM.
+        <p className="text-sm leading-snug md:text-[18px] md:leading-[24px] text-white mb-8 leading-relaxed">
+          Isso não foi feito para quem quer se sentir confortável. Serve para homens DISPOSTOS a esmagar a timidez, abandonar o papel de bonzinho até se tornarem impossíveis de ignorar por QUALQUER MULHER QUE DESEJAREM.
         </p>
 
       </div>

@@ -9,7 +9,7 @@ export default function PainSection() {
       <div className="hidden md:block absolute inset-y-0 right-0 w-[60%] pointer-events-none">
         <div className="absolute inset-0 bg-gradient-to-r from-black via-black/80 to-transparent z-10" />
         <img
-          src="/images/pain-bg.jpg"
+          src="/images/pain-bg.webp"
           alt=""
           className="w-full h-full object-cover"
         />
@@ -17,7 +17,7 @@ export default function PainSection() {
 
       <div className="relative z-10 max-w-7xl mx-auto px-6">
         <div className="max-w-2xl">
-          <div className="space-y-8 text-base leading-snug md:text-[24px] md:leading-[30px]">
+          <div className="space-y-8 text-base leading-snug md:text-[18px] md:leading-[24px]">
             <p className="text-white">
               Você já cansou de assistir de fora enquanto outro cara <span className="text-white uppercase">leva</span> a mulher que você queria. De ser o amigo que escuta, apoia, faz tudo certo… e mesmo assim <span className="text-white uppercase">nunca</span> é escolhido. Não porque você é inútil, mas porque ninguém nunca te ensinou como o jogo realmente funciona.
             </p>
@@ -39,7 +39,7 @@ export default function PainSection() {
                 <div className="absolute inset-0 bg-gradient-to-br from-[#e80029] to-[#4c000e] rounded-sm animate-radar -z-10"></div>
                 <button
                   onClick={scrollToOffer}
-                  className="bg-gradient-to-br from-[#e80029] to-[#4c000e] hover:brightness-110 text-[22px] font-bold text-lg md:text-[31px] leading-[31px] px-10 py-5 rounded-sm transition-all duration-300 transform hover:scale-105 relative z-10"
+                  className="bg-gradient-to-br from-[#e80029] to-[#4c000e] hover:brightness-110 text-[22px] font-bold text-lg md:text-[22px] leading-[22px] px-10 py-5 md:px-6 md:py-4 rounded-sm transition-all duration-300 transform hover:scale-105 relative z-10"
                 >
                   DEIXAR DE SER INVISÍVEL!
                 </button>

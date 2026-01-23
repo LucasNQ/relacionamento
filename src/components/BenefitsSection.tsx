@@ -43,11 +43,11 @@ export default function BenefitsSection() {
         <div className="grid md:grid-cols-2 gap-12 lg:gap-24 items-start">
           {/* Left Column - Title & Subtitle */}
           <div className="text-center md:text-right">
-            <h2 className="text-4xl md:text-[56px] lg:text-[64px] leading-tight tracking-[2.5px] font-black mb-6 uppercase text-white">
-              O que você vai dominar com o ASSUNTO INFINITO:
+            <h2 className="text-4xl md:text-[40px] lg:text-[48px] leading-tight tracking-[1.5px] font-black mb-6 uppercase text-white">
+              O que você vai dominar com o MANUAL SUJO DA CONQUISTA:
             </h2>
 
-            <p className="text-lg md:text-[24px] leading-[30px] text-white font-regular leading-relaxed md:ml-auto">
+            <p className="text-lg md:text-[20px] leading-[24px] text-white font-regular leading-relaxed md:ml-auto">
               Você não vai apenas conversar; você vai COMANDAR. Você não vai apenas atrair; você vai CONQUISTAR.
             </p>
           </div>
@@ -56,7 +56,7 @@ export default function BenefitsSection() {
           <div className="space-y-12 text-center md:text-left">
             {benefits.map((benefit, index) => (
               <div key={index} className="space-y-2">
-                <h3 className="text-2xl md:text-[32px] leading-tight font-black text-white uppercase tracking-wide">
+                <h3 className="text-2xl md:text-[26px] leading-tight font-black text-white uppercase tracking-wide">
                   {benefit.title}
                 </h3>
                 <p className="text-base md:text-[20px] leading-relaxed text-white/90 font-medium max-w-xl mx-auto md:mx-0">
