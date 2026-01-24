@@ -11,7 +11,7 @@ export default function RevelationSection() {
       {/* Background Image Container */}
       <div className="absolute inset-0 pointer-events-none">
         {/* Desktop Image Styling - Left aligned */}
-        <div className="hidden md:block absolute inset-y-0 left-0 w-[60%]">
+        <div className="hidden lg:block absolute inset-y-0 left-0 w-[60%]">
           <div className="absolute inset-0 bg-gradient-to-l from-black via-black/60 to-transparent z-10" />
           <div className="absolute inset-0 bg-gradient-to-r from-transparent via-black/40 to-black z-10" />
           <img
@@ -22,11 +22,11 @@ export default function RevelationSection() {
         </div>
 
         {/* Mobile Image Styling - Starts below top, behind text */}
-        <div className="md:hidden absolute left-0 right-0 bottom-0 top-[100px]">
+        <div className="lg:hidden absolute left-0 right-0 bottom-0 top-[100px] block">
           <div className="absolute inset-0 bg-gradient-to-t from-black via-black/80 to-transparent z-10" />
           <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-transparent z-10" />
           <img
-            src="/images/revelation-bg.jpg"
+            src="/images/revelation-bg.webp"
             alt=""
             className="w-full h-full object-cover opacity-50 grayscale"
           />

@@ -6,7 +6,7 @@ export default function PainSection() {
   return (
     <section className="relative py-20 md:py-32 bg-black overflow-hidden">
       {/* Desktop Background Image - Absolute Right */}
-      <div className="hidden md:block absolute inset-y-0 right-0 w-[60%] pointer-events-none">
+      <div className="hidden lg:block absolute inset-y-0 right-0 w-[60%] pointer-events-none">
         <div className="absolute inset-0 bg-gradient-to-r from-black via-black/80 to-transparent z-10" />
         <img
           src="/images/pain-bg.webp"
@@ -49,10 +49,10 @@ export default function PainSection() {
         </div>
 
         {/* Mobile Image - Full Width Block */}
-        <div className="md:hidden mt-8 relative mx-[-24px] w-[calc(100%+48px)]">
+        <div className="lg:hidden mt-8 relative mx-[-24px] w-[calc(100%+48px)] block">
           <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent z-10" />
           <img
-            src="/images/pain-bg.jpg"
+            src="/images/pain-bg.webp"
             alt=""
             className="w-full h-[400px] object-cover"
           />
