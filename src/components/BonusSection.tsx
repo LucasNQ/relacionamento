@@ -13,21 +13,21 @@ export default function BonusSection() {
 
         <div className="space-y-8 mb-16">
           {/* Card 1 */}
-          <div className="bg-[#181818] border-t-2 border-b-2 border-red-600 rounded-2xl p-8 text-center shadow-[0_0_15px_rgba(237,0,42,0.2)] md:w-[70%] md:mx-auto">
+          <div className="bg-[#181818] border-t-2 border-red-600 rounded-2xl p-8 text-center md:w-[70%] md:mx-auto">
             <h3 className="font-bebas text-[34px] leading-[40.8px] md:text-[39px] md:leading-[39px] tracking-[2.5px] uppercase text-white mb-4">
               <span className="text-[#ED002A]">BÔNUS 1:</span> O SEGREDO DA MASSAGEM ERÓTICA QUE ENLOUQUECE QUALQUER MULHER! <span className="text-[#ED002A]">- DE <span className="line-through decoration-white">R$ 197,00</span> POR R$0,00</span>
             </h3>
-            <p className="text-gray-300 leading-relaxed max-w-4xl mx-auto">
+            <p className="text-gray-300 md:text-[18px] leading-relaxed max-w-4xl mx-auto">
               Descubra como transformar o toque em uma arma de sedução. Aprenda técnicas secretas para despertar o prazer feminino e fazer com que ela implore por mais. Não é apenas uma massagem, é uma experiência que vai ficar gravada na memória dela para sempre. Prepare-se para ser o homem que ela nunca mais vai esquecer na cama.
             </p>
           </div>
 
           {/* Card 2 */}
-          <div className="bg-[#181818] border-t-2 border-b-2 border-red-600 rounded-2xl p-8 text-center shadow-[0_0_15px_rgba(237,0,42,0.2)] md:w-[70%] md:mx-auto">
+          <div className="bg-[#181818] border-t-2 border-red-600 rounded-2xl p-8 text-center md:w-[70%] md:mx-auto">
             <h3 className="font-bebas text-[34px] leading-[40.8px] md:text-[39px] md:leading-[39px] tracking-[2.5px] uppercase text-white mb-4">
               <span className="text-[#ED002A]">BÔNUS 2:</span> LEITURA FRIA: A ARTE DE LER A ALMA DELA SEM ELA PERCEBER! <span className="text-[#ED002A]">- DE <span className="line-through decoration-white">R$ 147,00</span> POR R$0,00</span>
             </h3>
-            <p className="text-gray-300 leading-relaxed max-w-4xl mx-auto">
+            <p className="text-gray-300 md:text-[18px] leading-relaxed max-w-4xl mx-auto">
               Domine a técnica de Leitura Fria e faça com que qualquer mulher acredite que você a conhece profundamente, mesmo que seja a primeira vez que a vê. Aprenda a "adivinhar" seus pensamentos, desejos e medos, criando uma conexão instantânea e inexplicável. Ela vai se abrir para você como nunca se abriu para ninguém, porque sentirá que você é o único que realmente a entende. Este é o atalho para a intimidade e o controle da mente feminina.
             </p>
           </div>

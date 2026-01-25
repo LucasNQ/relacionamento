@@ -6,7 +6,7 @@ export default function RevelationSection() {
   };
 
   return (
-    <section className="relative py-20 md:py-32 bg-black overflow-hidden">
+    <section className="relative pt-0 pb-20 md:py-32 bg-black overflow-hidden">
 
       {/* Background Image Container */}
       <div className="absolute inset-0 pointer-events-none">
@@ -22,7 +22,7 @@ export default function RevelationSection() {
         </div>
 
         {/* Mobile Image Styling - Starts below top, behind text */}
-        <div className="lg:hidden absolute left-0 right-0 bottom-0 top-[100px] block">
+        <div className="lg:hidden absolute left-0 right-0 bottom-0 top-0 block">
           <div className="absolute inset-0 bg-gradient-to-t from-black via-black/80 to-transparent z-10" />
           <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-transparent z-10" />
           <img
@@ -33,8 +33,8 @@ export default function RevelationSection() {
         </div>
       </div>
 
-      <div className="relative z-20 max-w-4xl mx-auto px-6 text-center">
-        <div className="space-y-4 text-base leading-snug md:text-[18px] md:leading-[24px] text-white mb-8">
+      <div className="relative z-20 max-w-4xl mx-auto px-6 text-center pt-8 md:pt-0">
+        <div className="space-y-4 text-[18px] leading-[22px] md:text-[22px] md:leading-[24px] text-white mb-8">
           <p>
             CHEGA! talvez você já perceba que não é falta de atitude nem azar. O problema nasce no JEITO INVISÍVEL como você se posiciona, nas micro decisões que parecem inofensivas e destroem a tensão antes mesmo dela surgir.
           </p>
@@ -44,15 +44,15 @@ export default function RevelationSection() {
           </p>
         </div>
 
-        <div className="mb-6 flex justify-center">
-          <Infinity className="w-20 h-20 text-red-600" strokeWidth={2} />
+        <div className="mb-6 h-8 w-full bg-transparent">
+
         </div>
 
-        <p className="text-base leading-snug md:text-[18px] md:leading-[24px] text-white mb-4 leading-relaxed">
+        <p className="text-[18px] leading-[20px] md:text-[22px] md:leading-[24px] text-white mb-4 leading-relaxed">
           O MANUAL SUJO DA CONQUISTA entra exatamente aí, mostrando como assumir presença, gerar impacto e fazer com que a dinâmica mude a seu favor logo nas primeiras interações.
         </p>
 
-        <p className="text-sm leading-snug md:text-[18px] md:leading-[24px] text-white mb-8 leading-relaxed">
+        <p className="text-[18px] leading-[21px] md:text-[22px] md:leading-[24px] text-white mb-8 leading-relaxed">
           Isso não foi feito para quem quer se sentir confortável. Serve para homens DISPOSTOS a esmagar a timidez, abandonar o papel de bonzinho até se tornarem impossíveis de ignorar por QUALQUER MULHER QUE DESEJAREM.
         </p>
 

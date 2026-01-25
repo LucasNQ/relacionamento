@@ -10,7 +10,7 @@ export default function GuaranteeSection() {
               <span className="text-[#ED002A]">MINHA GARANTIA É<br />SIMPLES:</span><span className="text-white">OU VOCÊ SE<br />TORNA UM PREDADOR,<br />OU SEU DINHEIRO VOLTA!</span>
             </h2>
 
-            <p className="text-lg md:text-[18px] leading-snug md:leading-[28px] text-gray-300 mb-6">
+            <p className="text-lg md:text-[20px] leading-snug md:leading-[28px] text-gray-300 mb-6">
               Se em 30 dias você não estiver CONQUISTANDO mulheres e sentindo o poder em suas mãos, eu devolvo cada centavo. Sem letras miúdas. Sem desculpas. Eu confio tanto no meu método que o risco é 100% meu Você tem coragem de aceitar o desafio?
             </p>
           </div>
