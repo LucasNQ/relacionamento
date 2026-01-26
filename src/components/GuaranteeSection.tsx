@@ -6,12 +6,12 @@ export default function GuaranteeSection() {
       <div className="max-w-6xl mx-auto px-6">
         <div className="flex flex-col-reverse md:grid md:grid-cols-2 gap-8 md:gap-12 items-center">
           <div className="text-center md:text-left">
-            <h2 className="text-[41px] md:text-[44px] leading-[44px] tracking-[1.5px] md:leading-[44px] md:tracking-[2.5px] font-black mb-4 md:mb-6">
-              <span className="text-[#ED002A]">MINHA GARANTIA É<br />SIMPLES:</span><span className="text-white">OU VOCÊ SE<br />TORNA UM PREDADOR,<br />OU SEU DINHEIRO VOLTA!</span>
+            <h2 className="text-[41px] md:text-[46px] leading-[46px] tracking-[1.5px] md:leading-[46px] md:tracking-[2.5px] font-black mb-4 md:mb-6">
+              <span className="text-[#ED002A]">GARANTIA INCONDICIONAL<br />DE 7 DIAS: </span><span className="text-white">OU VOCÊ APRENDE<br />OU DEVOLVEMOS SEU DINHEIRO!</span>
             </h2>
 
             <p className="text-lg md:text-[20px] leading-snug md:leading-[28px] text-gray-300 mb-6">
-              Se em 30 dias você não estiver CONQUISTANDO mulheres e sentindo o poder em suas mãos, eu devolvo cada centavo. Sem letras miúdas. Sem desculpas. Eu confio tanto no meu método que o risco é 100% meu Você tem coragem de aceitar o desafio?
+              Se em 7 dias você sentir que não é pra você, te devolvemos 100% do valor. Sem letra miúda. Sem questionamento. Você entra com confiança. E se não sentir que é pra você — sai sem prejuízo.
             </p>
           </div>
 

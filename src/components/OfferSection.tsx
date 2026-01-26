@@ -13,7 +13,7 @@ export default function OfferSection() {
     <section id="offer-section" className="relative py-20 md:py-32 bg-black">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-12">
-          <h2 className="text-[41px] leading-[49.2px] md:text-[48px] md:leading-[48px] tracking-[2.5px] font-black mb-2 uppercase text-[#ED002A]">
+          <h2 className="text-[41px] leading-[49.2px] md:text-[54px] md:leading-[54px] tracking-[2.5px] font-black mb-2 uppercase text-[#ED002A]">
             CHEGA DE DESCULPAS!
           </h2>
 
@@ -71,10 +71,13 @@ export default function OfferSection() {
               Começar Básico
             </button>
 
-            <p className="text-center text-green-600 text-sm mt-4 flex items-center justify-center gap-2">
-              <span className="w-2 h-2 bg-green-600 rounded-full"></span>
-              Acesso liberado imediatamente
-            </p>
+            <div className="flex justify-center mt-4">
+              <img
+                src="/images/selo-seguranca.png"
+                alt="Formas de Pagamento"
+                className="h-6 object-contain grayscale"
+              />
+            </div>
           </div>
 
           <div
@@ -143,10 +146,13 @@ export default function OfferSection() {
               Quero Garantir Agora
             </button>
 
-            <p className="text-center text-green-600 text-sm mt-4 flex items-center justify-center gap-2">
-              <span className="w-2 h-2 bg-green-600 rounded-full"></span>
-              Acesso liberado imediatamente
-            </p>
+            <div className="flex justify-center mt-4">
+              <img
+                src="/images/selo-seguranca.png"
+                alt="Formas de Pagamento"
+                className="h-6 object-contain grayscale"
+              />
+            </div>
           </div>
         </div>
 

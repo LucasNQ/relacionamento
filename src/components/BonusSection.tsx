@@ -6,7 +6,7 @@ export default function BonusSection() {
     <section className="relative py-20 md:py-32 bg-black">
       <div className="max-w-5xl mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-[41px] leading-[49.2px] md:text-[44px] md:leading-[44px] tracking-[2.5px] font-black uppercase text-white">
+          <h2 className="text-[41px] leading-[49.2px] md:text-[48px] md:leading-[48px] tracking-[2.5px] font-black uppercase text-white">
             Bônus <span className="text-[#ED002A]">EXCLUSIVOS</span>
           </h2>
         </div>
@@ -46,10 +46,10 @@ export default function BonusSection() {
           {/* Text Column - Shifted Right on Mobile, Right on Desktop */}
           <div className="w-[65%] ml-auto md:w-full md:ml-0 text-center md:text-left relative z-10 px-4 md:px-0">
             <h3 className="text-[41px] leading-[49.2px] font-bebas md:text-[64px] md:leading-[64px] tracking-[2.5px] text-[#ED002A] uppercase">
-              PENSE BEM
+              REFLITA
             </h3>
             <p className="text-lg md:text-[24px] leading-[30px] text-white leading-relaxed mb-0">
-              Chega de ser o coadjuvante. O ASSUNTO INFINITO não é um gasto, é um INVESTIMENTO na sua nova vida, na sua nova identidade. E o preço para ter o poder de conquistar qualquer mulher é ridículo perto do que você vai ganhar.
+              Até quando você só vai passar vontade ou não vai conseguir desenrolar com uma mulher? Nosso principal papel como homem é ser homem suficiente para que mulheres sintam atração por nós. Se você não tomar atitude agora talvez amanhã possa ser tarde demais.
             </p>
           </div>
         </div>

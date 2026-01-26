@@ -25,11 +25,11 @@ export default function HeroSection() {
       >
         <VSLPlayer videoUrl="https://lpj-hoqoanid.on.adaptive.ai/cdn/gUcAi4q9pwLhmUaLHgHqBRkAKnFzWLfm-lpj-social-proof.mp4" />
 
-        <h1 className="text-[30px] leading-[35px] md:text-[64px] font-black md:leading-[64px] text-[#ED002A] uppercase tracking-[2.5px]" >
+        <h1 className="text-[30px] leading-[35px] md:text-[60px] font-black md:leading-[60px] text-[#ED002A] uppercase tracking-[2.5px]" >
           Por que eles dominam o jogo?
         </h1>
 
-        <p className="text-[30px] leading-[35px] md:text-[64px] mb-4 font-bold max-w-4xl mx-auto md:leading-[64px] text-white uppercase font-bebas tracking-[2.5px]">
+        <p className="text-[30px] leading-[35px] md:text-[60px] mb-4 font-bold max-w-4xl mx-auto md:leading-[60px] text-white uppercase font-bebas tracking-[2.5px]">
           Descubra como conquistar qualquer mulher nos próximos dias.
         </p>
 
