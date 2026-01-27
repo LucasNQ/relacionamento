@@ -1,28 +1,24 @@
 export default function BenefitsSection() {
   const benefits = [
     {
-      title: 'DESTRUA A TIMIDEZ',
-      description: 'Aborde qualquer mulher, em qualquer lugar, e faça ela implorar por sua atenção.'
+      title: 'ATRAIA COMO UM "CAFAJESTE"',
+      description: 'Aprenda o porque muitos "cafajestes" pegam mulher facilmente e use isso a seu favor.'
     },
     {
-      title: 'MANIPULE O DESEJO',
-      description: 'Acenda a chama da atração em segundos e faça ela se curvar ao seu charme.'
+      title: 'SAIA DA FRIEND ZONE',
+      description: 'Aprenda a sair da friend zone sem acabar com a amizade.'
     },
     {
-      title: 'CONTROLE A CONVERSA',
-      description: 'Guie a interação para onde você quiser, transformando um simples "oi" em um convite para a cama.'
+      title: 'SER UM LEÃO NO CARNAVAL',
+      description: 'Conquiste qualquer mulher no carnaval.'
     },
     {
-      title: 'SEJA A OBSESSÃO DELA',
-      description: 'Torne-se o homem que ela não consegue tirar da cabeça, o pesadelo dos outros caras.'
+      title: 'COMO GERAR PRESENÇA',
+      description: 'Aprenda a gerar presença e fazer com que as mulheres se conectem com você.'
     },
     {
-      title: 'ELIMINE A REJEIÇÃO',
-      description: 'A rejeição será uma piada. Você terá tantas opções que ela se tornará irrelevante.'
-    },
-    {
-      title: 'DOMINE A MENTE FEMININA',
-      description: 'Entenda os gatilhos psicológicos que fazem as mulheres se renderem ao seu poder.'
+      title: 'APRENDA A SER REJEITADO',
+      description: 'Não se importe com a rejeição e aprenda a lidar com ela.'
     }
   ];
 
@@ -46,10 +42,6 @@ export default function BenefitsSection() {
             <h2 className="text-4xl md:text-[40px] lg:text-[48px] leading-tight tracking-[1.5px] font-black mb-6 uppercase text-white">
               O que você vai dominar com o MANUAL SUJO DA CONQUISTA:
             </h2>
-
-            <p className="text-lg md:text-[20px] leading-[24px] text-white font-regular leading-relaxed md:ml-auto">
-              Você não vai apenas conversar; você vai COMANDAR. Você não vai apenas atrair; você vai CONQUISTAR.
-            </p>
           </div>
 
           {/* Right Column - Benefits List */}

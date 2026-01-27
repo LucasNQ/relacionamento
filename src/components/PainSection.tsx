@@ -1,8 +1,4 @@
 export default function PainSection() {
-  const scrollToOffer = () => {
-    document.getElementById('offer-section')?.scrollIntoView({ behavior: 'smooth' });
-  };
-
   return (
     <section className="relative pt-20 pb-0 md:py-32 bg-black overflow-hidden">
       {/* Desktop Background Image - Absolute Right */}
@@ -33,23 +29,11 @@ export default function PainSection() {
             <p className="text-white">
               Não é sobre virar outra pessoa é sobre parar de jogar errado e finalmente conquistar qualquer mulher nos próximos dias.
             </p>
-
-            <div className="text-center md:text-left">
-              <div className="relative inline-block group">
-                <div className="absolute inset-0 bg-gradient-to-br from-[#e80029] to-[#4c000e] rounded-sm animate-radar -z-10"></div>
-                <button
-                  onClick={scrollToOffer}
-                  className="bg-gradient-to-br from-[#e80029] to-[#4c000e] hover:brightness-110 text-[20px] font-bold text-lg md:text-[22px] leading-[22px] px-10 py-5 md:px-10 md:py-5 rounded-sm transition-all duration-300 transform hover:scale-105 relative z-10"
-                >
-                  DEIXAR DE SER INVISÍVEL!
-                </button>
-              </div>
-            </div>
           </div>
         </div>
 
         {/* Mobile Image - Full Width Block */}
-        <div className="lg:hidden mt-8 relative mx-[-24px] w-[calc(100%+48px)] block">
+        <div className="lg:hidden -mt-12 relative mx-[-24px] w-[calc(100%+48px)] block">
           <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent z-10" />
           <img
             src="/images/pain-bg.webp"

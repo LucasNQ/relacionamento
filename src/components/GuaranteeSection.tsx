@@ -2,12 +2,12 @@
 
 export default function GuaranteeSection() {
   return (
-    <section className="relative py-20 md:py-32 bg-black">
+    <section id="guarantee-section" className="relative py-20 md:py-32 bg-black">
       <div className="max-w-6xl mx-auto px-6">
         <div className="flex flex-col-reverse md:grid md:grid-cols-2 gap-8 md:gap-12 items-center">
           <div className="text-center md:text-left">
-            <h2 className="text-[41px] md:text-[46px] leading-[46px] tracking-[1.5px] md:leading-[46px] md:tracking-[2.5px] font-black mb-4 md:mb-6">
-              <span className="text-[#ED002A]">GARANTIA INCONDICIONAL<br />DE 7 DIAS: </span><span className="text-white">OU VOCÊ APRENDE<br />OU DEVOLVEMOS SEU DINHEIRO!</span>
+            <h2 className="text-[41px] md:text-[46px] leading-[40px] tracking-[1px] md:leading-[46px] md:tracking-[2.5px] font-black mb-4 md:mb-6">
+              <span className="block md:inline text-[#ED002A]">GARANTIA INCONDICIONAL<br />DE 7 DIAS: </span><span className="block md:inline text-white">OU VOCÊ APRENDE<br />OU DEVOLVEMOS SEU DINHEIRO!</span>
             </h2>
 
             <p className="text-lg md:text-[20px] leading-snug md:leading-[28px] text-gray-300 mb-6">

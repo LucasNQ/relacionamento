@@ -1,8 +1,8 @@
-import { Infinity } from 'lucide-react';
+
 
 export default function RevelationSection() {
   const scrollToOffer = () => {
-    document.getElementById('offer-section')?.scrollIntoView({ behavior: 'smooth' });
+    document.getElementById('guarantee-section')?.scrollIntoView({ behavior: 'smooth' });
   };
 
   return (
@@ -55,6 +55,18 @@ export default function RevelationSection() {
         <p className="text-[18px] leading-[21px] md:text-[22px] md:leading-[24px] text-white mb-8 leading-relaxed">
           Isso não foi feito para quem quer se sentir confortável. Serve para homens DISPOSTOS a esmagar a timidez, abandonar o papel de bonzinho até se tornarem impossíveis de ignorar por QUALQUER MULHER QUE DESEJAREM.
         </p>
+
+        <div className="text-center">
+          <div className="relative inline-block group">
+            <div className="absolute inset-0 bg-gradient-to-br from-[#e80029] to-[#4c000e] rounded-sm animate-radar -z-10"></div>
+            <button
+              onClick={scrollToOffer}
+              className="bg-gradient-to-br from-[#e80029] to-[#4c000e] hover:brightness-110 text-[20px] font-bold text-lg md:text-[22px] leading-[22px] px-10 py-5 md:px-10 md:py-5 rounded-sm transition-all duration-300 transform hover:scale-105 relative z-10"
+            >
+              DEIXAR DE SER INVISÍVEL!
+            </button>
+          </div>
+        </div>
 
       </div>
     </section>
