@@ -1,5 +1,7 @@
 
 
+import { ArrowDown } from 'lucide-react';
+
 export default function GuaranteeSection() {
   return (
     <section id="guarantee-section" className="relative py-20 md:py-32 bg-black">
@@ -13,6 +15,10 @@ export default function GuaranteeSection() {
             <p className="text-lg md:text-[20px] leading-snug md:leading-[28px] text-gray-300 mb-6">
               Se em 7 dias você sentir que não é pra você, te devolvemos 100% do valor. Sem letra miúda. Sem questionamento. Você entra com confiança. E se não sentir que é pra você — sai sem prejuízo.
             </p>
+
+            <div className="flex justify-center md:justify-start">
+              <ArrowDown className="w-12 h-12 text-[#ED002A] animate-bounce" />
+            </div>
           </div>
 
           <div className="flex justify-center md:justify-end">
