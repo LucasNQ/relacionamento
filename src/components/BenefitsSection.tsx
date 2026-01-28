@@ -2,7 +2,7 @@ export default function BenefitsSection() {
   const benefits = [
     {
       title: 'ATRAIA COMO UM "CAFAJESTE"',
-      description: 'Aprenda o porque muitos "cafajestes" pegam mulher facilmente e use isso a seu favor.'
+      description: 'Aprenda o porque muitos "cafajestes" pegam mulheres facilmente e use isso a seu favor.'
     },
     {
       title: 'SAIA DA FRIEND ZONE',

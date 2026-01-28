@@ -13,12 +13,12 @@ export default function OfferSection() {
     <section id="offer-section" className="relative py-20 md:py-32 bg-black">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-12">
-          <h2 className="text-[41px] leading-[49.2px] md:text-[54px] md:leading-[54px] tracking-[2.5px] font-black mb-2 uppercase text-[#ED002A]">
-            CHEGA DE DESCULPAS!
+          <h2 className="text-[41px] leading-[49.2px] md:text-[54px] md:leading-[54px] tracking-[1.8px] md:tracking-[2.5px] font-black mb-2 uppercase text-[#ED002A]">
+            CHEGA DE SER UM BETA!
           </h2>
 
           <p className="text-lg md:text-[22px] leading-[28px] text-gray-300 leading-relaxed max-w-3xl mx-auto mb-8">
-            Chega de ser o coadjuvante. O ASSUNTO INFINITO não é um gasto, é um <span className="text-white font-bold">INVESTIMENTO</span> na sua nova vida, na sua nova identidade. E o preço para ter o poder de conquistar qualquer mulher é ridículo perto do que você vai ganhar:
+            O Manual Sujo da Conquista não é um gasto, é um <span className="text-white font-bold">INVESTIMENTO</span>. Agora está em suas mãos decidir se você quer continuar sendo apenas um coadjuvante ou dominar o Jogo.
           </p>
         </div>
 
@@ -30,9 +30,9 @@ export default function OfferSection() {
           >
             <div className="text-center mb-6">
               <h3 className="text-2xl md:text-[30px] leading-[30px] font-bold text-white mb-2">
-                Plano Básico
+                DESPERTAR
               </h3>
-              <p className="text-gray-400 text-lg md:text-[18px] leading-[18px]">Para quem quer começar</p>
+              <p className="text-gray-400 text-lg md:text-[18px] leading-[18px]">Sua Jornada Começa Aqui</p>
             </div>
 
             <div className="text-center mb-8">
@@ -52,15 +52,15 @@ export default function OfferSection() {
             <div className="space-y-4 mb-8">
               <div className="flex items-start gap-3">
                 <Check className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
-                <span className="text-gray-300">Módulo básico do método</span>
+                <span className="text-gray-300">O Manual Sujo da Conquista</span>
               </div>
               <div className="flex items-start gap-3">
                 <Check className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
-                <span className="text-gray-300">Técnicas fundamentais de conversa</span>
+                <span className="text-gray-300">Bônus: Anti-Friend Zone</span>
               </div>
               <div className="flex items-start gap-3">
                 <Check className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
-                <span className="text-gray-300">Acesso por 30 dias</span>
+                <span className="text-gray-300">Acesso liberado instantaneamente</span>
               </div>
             </div>
 
@@ -68,7 +68,7 @@ export default function OfferSection() {
               onClick={scrollToOffer}
               className="w-full bg-gray-900 hover:bg-black text-white font-bold text-lg px-8 py-4 rounded-lg uppercase tracking-wide transition-all duration-300 transform hover:scale-105"
             >
-              Começar Básico
+              START
             </button>
 
             <div className="flex justify-center mt-4">
@@ -86,16 +86,16 @@ export default function OfferSection() {
             style={{ backgroundColor: '#181818' }}
           >
             <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-              <span className="bg-red-600 text-white px-6 py-2 rounded-full font-bold text-sm uppercase">
-                POPULAR
+              <span className="bg-red-600 text-white px-6 py-2 rounded-full font-bold text-[16px] uppercase">
+                MAIS VENDIDO
               </span>
             </div>
 
             <div className="text-center mb-6">
               <h3 className="text-2xl font-bold text-white mb-2">
-                Plano Completo
+                DOMINAÇÃO
               </h3>
-              <p className="text-gray-400">A solução completa e definitiva</p>
+              <p className="text-gray-400 text-lg md:text-[18px] leading-[18px]">A transformação completa que você precisa</p>
             </div>
 
             <div className="text-center mb-8">
@@ -115,23 +115,23 @@ export default function OfferSection() {
             <div className="space-y-4 mb-8">
               <div className="flex items-start gap-3">
                 <Check className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
-                <span className="text-gray-300 font-semibold">Método completo do Assunto Infinito</span>
+                <span className="text-gray-300 font-semibold">O Manual Sujo da Conquista</span>
               </div>
               <div className="flex items-start gap-3">
                 <Check className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
-                <span className="text-gray-300 font-semibold">Acesso ao Grupo VIP exclusivo</span>
+                <span className="text-gray-300 font-semibold">Como Ser um Leão no Carnaval</span>
               </div>
               <div className="flex items-start gap-3">
                 <Check className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
-                <span className="text-gray-300 font-semibold">Bônus: Massagem Erótica</span>
+                <span className="text-gray-300 font-semibold">Bônus: Anti-Friend Zone</span>
               </div>
               <div className="flex items-start gap-3">
                 <Check className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
-                <span className="text-gray-300 font-semibold">Bônus: Leitura Fria</span>
+                <span className="text-gray-300 font-semibold">Bônus: A Estratégia que eles Não te Contam</span>
               </div>
               <div className="flex items-start gap-3">
                 <Check className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
-                <span className="text-gray-300 font-semibold">Acesso vitalício</span>
+                <span className="text-gray-300 font-semibold">Acesso liberado instantaneamente</span>
               </div>
               <div className="flex items-start gap-3">
                 <Check className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />

@@ -29,7 +29,7 @@ export default function TestimonialsSection() {
               onClick={scrollToOffer}
               className="bg-gradient-to-br from-[#e80029] to-[#4c000e] hover:brightness-110 text-white font-bold text-[22px] md:text-[22px] leading-[22px] px-10 py-5 md:px-10 md:py-5 rounded-sm transition-all duration-300 transform hover:scale-105 relative z-10"
             >
-              DEIXAR DE SER INVISÍVEL!
+              HORA DE MUDAR O JOGO!
             </button>
           </div>
         </div>
