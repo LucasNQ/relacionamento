@@ -5,9 +5,7 @@ export default function OfferSection() {
   const { elementRef: card1Ref, isVisible: card1Visible } = useIntersectionObserver();
   const { elementRef: card2Ref, isVisible: card2Visible } = useIntersectionObserver();
 
-  const scrollToOffer = () => {
-    document.getElementById('offer-section')?.scrollIntoView({ behavior: 'smooth' });
-  };
+
 
   return (
     <section id="offer-section" className="relative py-20 md:py-32 bg-black">
@@ -65,7 +63,7 @@ export default function OfferSection() {
             </div>
 
             <button
-              onClick={scrollToOffer}
+              onClick={() => window.location.href = 'https://www.ggcheckout.com/checkout/v4/rI81n11I5SIPMYXTbMg9'}
               className="w-full bg-gray-900 hover:bg-black text-white font-bold text-lg px-8 py-4 rounded-lg uppercase tracking-wide transition-all duration-300 transform hover:scale-105"
             >
               START
@@ -140,7 +138,7 @@ export default function OfferSection() {
             </div>
 
             <button
-              onClick={scrollToOffer}
+              onClick={() => window.location.href = 'https://www.ggcheckout.com/checkout/v4/DjyPyAR8H9YRbMG2e9yo'}
               className="w-full bg-red-600 hover:bg-red-700 text-white font-bold text-lg px-8 py-4 rounded-lg uppercase tracking-wide transition-all duration-300 transform hover:scale-105 shadow-xl"
             >
               Quero Garantir Agora
