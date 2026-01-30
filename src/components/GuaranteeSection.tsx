@@ -16,7 +16,7 @@ export default function GuaranteeSection() {
               Se em 7 dias você sentir que não é pra você, te devolvemos 100% do valor. Sem letra miúda. Sem questionamento. Você entra com confiança. E se não sentir que é pra você — sai sem prejuízo.
             </p>
 
-            <div className="flex justify-center md:justify-start">
+            <div className="flex justify-center md:hidden">
               <ArrowDown className="w-12 h-12 text-[#ED002A] animate-bounce" />
             </div>
           </div>

@@ -56,7 +56,7 @@ export default function OfferSection() {
               </div>
               <div className="flex items-start gap-3">
                 <Check className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
-                <span className="text-gray-300">Bônus: Anti-Friend Zone</span>
+                <span className="text-gray-300">Bônus: Anti Friend Zone</span>
               </div>
               <div className="flex items-start gap-3">
                 <Check className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
@@ -102,7 +102,7 @@ export default function OfferSection() {
               <p className="text-red-600 line-through text-lg mb-2">De R$ 97,90</p>
               <div className="flex items-center justify-center gap-2">
                 <span className="text-white text-xl">R$</span>
-                <span className="text-6xl md:text-[60px] leading-[50px] font-bold text-white">29</span>
+                <span className="text-6xl md:text-[60px] leading-[50px] font-bold text-white">19</span>
                 <div className="flex flex-col items-start">
                   <span className="text-2xl font-bold text-white">,90</span>
                 </div>
@@ -123,7 +123,7 @@ export default function OfferSection() {
               </div>
               <div className="flex items-start gap-3">
                 <Check className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
-                <span className="text-gray-300 font-semibold">Bônus: Anti-Friend Zone</span>
+                <span className="text-gray-300 font-semibold">Bônus: Anti Friend Zone</span>
               </div>
               <div className="flex items-start gap-3">
                 <Check className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />

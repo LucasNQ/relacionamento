@@ -15,7 +15,7 @@ export default function BonusSection() {
           {/* Card 1 */}
           <div className="bg-[#181818] border-t-2 border-red-600 rounded-2xl p-8 text-center md:w-[70%] md:mx-auto">
             <h3 className="font-bebas text-[34px] leading-[40.8px] md:text-[39px] md:leading-[39px] tracking-[2.5px] uppercase text-white mb-4">
-              <span className="text-[#ED002A]">BÔNUS 1:</span> ANTI FRIEND-ZONE DEIXE DE SER UM CARA "BONZINHO" <span className="text-[#ED002A]">- DE <span className="line-through decoration-white">R$ 27,90</span> POR R$0,00</span>
+              <span className="text-[#ED002A]">BÔNUS 1:</span> ANTI FRIEND ZONE DEIXE DE SER UM CARA "BONZINHO" <span className="text-[#ED002A]">- DE <span className="line-through decoration-white">R$ 27,90</span> POR R$0,00</span>
             </h3>
             <p className="text-gray-300 md:text-[18px] leading-relaxed max-w-4xl mx-auto">
               Pare de ser um cara "bonzinho" que faz de tudo por ela e no final acaba sendo apenas mais um amigo dela.
