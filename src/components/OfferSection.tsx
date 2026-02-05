@@ -63,7 +63,7 @@ export default function OfferSection() {
             </div>
 
             <button
-              onClick={() => window.location.href = 'https://pagamento.manualdaconquista.site/checkout/v4/rI81n11I5SIPMYXTbMg9'}
+              onClick={() => window.location.href = 'https://pagamento.manualdaconquista.site/checkout/v5/rI81n11I5SIPMYXTbMg9'}
               className="w-full bg-gray-900 hover:bg-black text-white font-bold text-lg px-8 py-4 rounded-lg uppercase tracking-wide transition-all duration-300 transform hover:scale-105"
             >
               START
@@ -138,7 +138,7 @@ export default function OfferSection() {
             </div>
 
             <button
-              onClick={() => window.location.href = 'https://pagamento.manualdaconquista.site/checkout/v4/DjyPyAR8H9YRbMG2e9yo'}
+              onClick={() => window.location.href = 'https://pagamento.manualdaconquista.site/checkout/v5/DjyPyAR8H9YRbMG2e9yo'}
               className="w-full bg-red-600 hover:bg-red-700 text-white font-bold text-lg px-8 py-4 rounded-lg uppercase tracking-wide transition-all duration-300 transform hover:scale-105 shadow-xl"
             >
               Quero Garantir Agora
